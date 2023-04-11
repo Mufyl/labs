@@ -1,0 +1,25 @@
+<body>
+<script>
+
+    st     = prompt('');
+    length  = st.length;
+    letter1 = 'o';
+    letter2 = 'a';
+    k = 0;
+    n = 0;
+
+    for (i=0; i<length; i++)
+    {
+        c = st.charAt(i);
+        if (c == letter1) {k++}
+	else if (c == letter2) {n++};
+    }
+    if (k>n) 
+    {
+      alert('Bukva 1 bolshe' + k);
+    } else if (k<n)
+      {
+        alert('Bukva 2 bolshe' + n);
+      } else alert('Kollichestvo bukv odinakovoe');
+</script>
+</body>

@@ -1,0 +1,19 @@
+<body>
+<script>
+
+  a = new Array(10);
+  s = '';
+
+  for (let i = 0; i < a.length; i++)
+  {
+      let y = Math.random() * 10 + 10;
+      a[i]  = Math.floor(y);
+      if (a[i] % 7 === 0)
+      {
+          alert( 'Index: ' + i + ' Array element ' + a[i] );
+	  break;
+      }
+  }
+
+</script>
+</body>
