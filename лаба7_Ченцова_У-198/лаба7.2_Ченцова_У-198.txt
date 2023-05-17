@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    h1
+    {border: 2px solid black;}
+  </style>
+  <script>
+    i=0;
+    function f()
+    {
+      r1 = document.getElementById('e1')
+      r2 = document.getElementById('e2')
+
+      if(i===0)
+      {
+        r1.style.border = '2px solid transparent';
+        r2.value = 'Показать рамку'
+        i=1;
+      }
+      else
+      {
+        r1.style.border = '2px solid black'
+        r2.value = 'Убрать рамку';
+        i=0;
+      }
+    }
+  </script>
+</head>
+<body>
+<h1 id = 'e1' >Текст в рамке или нет?</h1>
+<form>
+  <input type="button" id='e2' value="Убрать рамку"
+         onClick="f();">
+</form>
+</body>
+</html>

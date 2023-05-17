@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <head>
+    <meta charset="utf-8">
+    <title>border</title>
+    <style>
+      div {
+        text-align: center;
+        font-size: 50px;
+      }
+      div:hover {
+        text-align: center;
+        font-size: 50px;
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+<body>
+<div>
+  <p>Наведи курсор</p>
+</div>
+</body>
+</html>
